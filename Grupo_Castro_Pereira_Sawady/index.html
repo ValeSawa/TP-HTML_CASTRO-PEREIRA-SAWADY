@@ -2,25 +2,61 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/ico" href="imagenes/logo.ico" /><!--Logo-->
+    <link rel="icon" type="image/ico" href="imagenes/logo.ico" /> <!--Logo-->
     <title>Textil UNQ</title>
+    <link rel="stylesheet" type="text/css" href="css/estilotextilunq.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 </head>
 
 <body>
     <!-- Encabezado -->
-    <header>
-        <div>
-        <img src ="Imagenes/logo.png" alt = "logo" title = "logo_empresa" width = "100px" height = "110px"/>
-         <h1>Textil UNQ</h1>
-        <h2>Con vos en Mente en cada puntada</h2>
-        </div>
+    <header> 
+          <div id= "contenedor-logo">
+            <img src = "https://i.imgur.com/Du5lTYd.png" alt = "logo" title = "logo_empresa" width = "200px" height = "200px"/>
+             </div>
+            
+            <div id="title">
+              <h1>Textil UNQ</h1> 
+            <h2> 
+                <em> Con vos en Mente en cada puntada </em> 
+            </h2>             
+          </div>           
     </header>
+
+
+    <!--Menú de la página principal donde se podrá contactar con la empresa-->
+    <div id="nav">
+      <nav>     
+           <ul>
+               <li><a href="#">Quiénes Somos</a></li>
+               <li><a href="#">Nuestros Productos</a></li>
+           </ul>
+     
+      </nav>
+    </div>
+
     <!--Sección Producto Destacado-->
+    <div id="contenedor-destacado">
     <section>
+        <header>
         <h3>Producto Destacado</h3>
-        <img src = "Imagenes/producto_hilo_encerado.jpg" alt = "imagen de hilo encerado" title = "hilo encerado azul" width="320"/> 
+        </header>
+    </div>
+
+           <div id="grid">        
+          <img src = "https://i.imgur.com/7UDAyUA.jpg" alt = "imagen de hilo encerado" title = "hilos encerados" width="400" height="250" />           
+         <img src="https://i.imgur.com/45OekNb.jpg" alt = "imagen de hilo encerado" title = "pulsera" width="400"
+          height="250" />
+          <img src="https://i.imgur.com/vU9sMM2.jpg" alt = "imagen de hilo encerado" title = "pulsera" width="400"
+          height="250"/>
+            </div>
+
+     <div id="article">
+        <article>
         <h4>Hilo Encerado</h4>
-        <p>hilo de nylon encerado ,color azul de excelente calidad especialmente destinado para costuras a mano. Este hilo encerado se caracteriza por su resistencia y fortaleza. El hilo encerado es utilizado para:
+
+        <p>
+            Hilo de nylon encerado, de diversos colores y de excelente calidad, especialmente destinado para costuras a mano. Este hilo encerado se caracteriza por su resistencia y fortaleza. El hilo encerado es utilizado para:
             <ul>
                 <li>costuras de vista</li>
                 <li>Costuras de alta resistencia</li>
@@ -30,14 +66,28 @@
             </ul>
         Para más información: <a href="" title = "Ver más">Ver más</a>
         </p>
+        </article>
     </section>
-    <!--Sección publicidad-->
-    <section>
-    
-    </section>
-    <footer>
+    </div>
 
+    <!--Sección publicidad-->
+    <div id="publicidad" >
+    <aside>
+        PUBLICIDAD 
+    </aside>
+    </div>
+
+<!-- footer -->
+<div id="footer">
+    <footer>
+     Copyright © 2019 | Pereira Castro Sawady 
+     <img src = "https://i.imgur.com/WGn5RMM.png" alt = "logo" title = "logo_facebook" width = "50px" height = 
+     "50px"/>  Textil UNQ
+
+     <img src = "https://i.imgur.com/4Mt2q9z.png" alt = "logo" title = "logo_facebook" width = "50px" height = 
+     "50px"/> 4254-2205 
     </footer>
+</div>
 
 </body>
 </html>
