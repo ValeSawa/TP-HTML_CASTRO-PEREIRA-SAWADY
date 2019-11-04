@@ -1,0 +1,151 @@
+/* HOJA DE ESTILO CSS PARA PÁGINA WEB "TEXTIL UNQ"*/
+
+        body {          
+        background-color: white;
+        margin-top: 0px;
+        padding: 0px
+             }
+
+        body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh
+        }
+
+          .contenedor-logo{
+            display: grid;            
+                height: 1px;
+                text-align: left;
+                ;
+             }
+
+             .title{
+              grid-template-columns: auto auto;
+              display: grid;
+              justify-content: left              
+             }
+
+             .contenedor-destacado{
+              justify-content: center;
+              grid-column-gap: 200px;
+              grid-row-gap: 5px;
+            }
+
+            .grid {
+              display: grid;
+              grid-template-columns: auto auto auto;
+            }
+
+            .grid img{
+              justify-items: center;
+              width: 100%;
+              border: 3px solid blue               
+            }
+
+         header {
+           grid-column: span 3;
+           padding: 20px;
+           font-size: 2em;
+           color: #FF9966;
+           background-color: #99CCFF
+          }
+
+      h1{
+        text-align: center;
+        font-family: Times New Roman;
+        letter-spacing: 4px
+
+      }
+
+      h2{
+        text-align: center;
+        color: #0099FF;
+        font-size: 30px;
+        font-family: serif;
+        letter-spacing: 4px
+      }
+
+      h3, h4, h5, h6 {
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        font-family: sans-serif;
+        letter-spacing: 2px        
+      }      
+
+
+      #nav {
+      padding-top: 0px;
+      background-color: #FFCC99;
+      font-family: Times New Roman;
+      font-size:20 ;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+      li a {
+      display: block;
+      color: orange;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      }
+
+     li a:hover {
+       background-color: #333333;
+       }
+
+       #contenedor-destacado > header{
+        padding-left: 10px; 
+        padding-top: 10px;
+        grid-column-start: head;
+        background-color: #8ca0ff;
+       }
+       #contenedor-destacado > article{
+        grid-column-start: head;
+        background-color: #8ca0ff;
+        justify-content: center;
+       }
+
+        
+
+       section {
+        justify-content: center;
+           display: grid;
+           grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+           grid-gap: 30px;
+           }
+       article {
+        position:relative;
+        }
+
+        textarea {
+        width: 75%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #cccccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        }
+
+        aside {
+         background: lightblue;
+         }
+
+       #footer {
+        padding-top: 10px 
+        background: lightgrey;
+        grid-column: span 3;
+        padding: 30px;
+        text-align: left;
+        border-top: 3px solid #FF9966;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-size:15
+      }
