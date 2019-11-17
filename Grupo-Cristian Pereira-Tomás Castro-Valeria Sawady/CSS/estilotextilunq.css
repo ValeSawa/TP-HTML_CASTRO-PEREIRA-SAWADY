@@ -23,6 +23,15 @@ element.style {
   margin-inline-end: 0px;
 }
 
+
+.imagenes {
+    background: #ffcc99;
+    box-shadow: 1px 10px 1px 0px #c3874c;
+    margin-bottom: -11px;
+    margin-left: 115px;
+    margin-right: 100px;
+}
+
 header {
     grid-column: span 3;
     padding: 1px;
@@ -53,16 +62,43 @@ h2 {
   }    
 
 
-nav {
-    padding-top: 0px;
-    background-color: #FFCC99;
+.nav {
+    background-color: #ffa360;
     font-family: auto;
     font-size: 20px;
-    box-shadow: inset 0px 0px 16px 2px #ffe2c6;
     text-align: center;
     letter-spacing: 4px;
     -webkit-text-stroke-width: medium;
+    box-shadow: 0px 0px 0px 20px #ffa360;
 }
+
+/* Cuerpo del texto */
+
+body {          
+    background-color: #472313;
+    margin-top: 0px;    
+}
+
+
+h3 {
+    text-align: center;
+    color: #472a00;
+    font-size: 32px;
+    font-family: serif;
+    letter-spacing: 4px;
+    background: #ffcd85;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4, h5, h6 {
+    text-align: center;
+    color: #472a00;
+    font-size: 25px;
+    font-family: unset;
+    letter-spacing: 2px;
+    background: #ffcc99;
+} 
 
 ul {
     margin-inline-start: 10px;
@@ -80,58 +116,20 @@ li a {
 
 li a:hover {
  background-color: #333333;
-}
-
-
-/* Cuerpo del texto */
-
-body {          
-  background-color: #ffe2c6;
-  margin-top: 0px;
-  padding: 0px
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+}    
 
 .contenedor-destacado{
-  justify-content: center;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-.grid img {
-  justify-items: center;
-  width: 100%;
-  border: 3px solid blue               
-}
-
-h3 {
-  text-align: center;
-  color: black;
-  font-size: 28px;
-  font-family: unset;
-  letter-spacing: 10px;
-  background: #c0e0ff;
-}
-
-h4, h5, h6 {
-  text-align: center;
-  color: black;
-  font-size: 25px;
-  font-family: unset;
-  letter-spacing: 2px;
-  background: #c0e0ff;
-}      
+    justify-content: center;
+    margin-top: 28px;
+    margin-bottom: 1px;
+} 
 
 .contenedor-destacado > header {
-  padding-left: 10px;
-  padding-top: 10px;
-  grid-column-start: head;
-  background-color: #8ca0ff;
+    padding-left: 10px;
+    padding-top: 10px;
+    grid-column-start: head;
+    background-color: #472a00;
+    box-shadow: 0 0 0 8px #472313;
 }
 
 .contenedor-destacado > article {
@@ -140,19 +138,22 @@ h4, h5, h6 {
   justify-content: center;
 }
 
-section {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  }
-
+ 
 .article {
-    background: #ffcc99;
-    font-size: larger;
-    font-style: normal;
-    font-family: serif;
-    text-align: justify;
+    background: #ff9c3a;
+    box-shadow: 0px 0px 0px 10px #ff9c3a;
+    margin-top: -4px;
     }
+
+.sobrehiloencerado {
+    background-color: #ffe3bb;
+    text-align: left;
+    margin-left: 156px;
+    margin-right: 156px;
+    box-shadow: 0 0 0 9px #ffe3bb;
+    font-size: 18px;
+    font-family: serif;
+}
 
 element.style {
     background-color: #ffcc99;
@@ -179,23 +180,54 @@ textarea {
 /* Publicidad */
 
 aside {
-     margin-block-end: 10px;
+    margin-block-end: 10px;
     margin-block-start: 10px;
     margin-left: 140px;
     margin-right: 140px;
 }
 
+.publicidad {
+    margin-block-start: 12px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 9px 1px black;
+    background-color: #3d1212;
+}
 
-/*  */
+
+/* Pie de página: Redes Sociales y medios de contacto de la empresa */
 .footer {
-  text-align: center;
+    text-align: center;
     text-transform: uppercase;
-    -webkit-user-modify: read-write-plaintext-only;
-    border-top: 20px solid #ff9966;
-    border-bottom: 20px solid #ff9966;
+    border-top: 20px solid #ff884c;
+    border-bottom: 20px solid #ff884c;
     margin-block-end: 1px;
-    font-family: sans-serif;
+    font-family: serif;
     letter-spacing: 2px;
     font-size: 15px;
-    background: #ffcc99;
+    background: #ffe3bb;
+}
+
+.contactofacebook {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-right: 119px;
+}
+.contactowhatsapp {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-right: 146px;
+}
+.contactodireccion {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.contactogmail {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 12px;
 }
