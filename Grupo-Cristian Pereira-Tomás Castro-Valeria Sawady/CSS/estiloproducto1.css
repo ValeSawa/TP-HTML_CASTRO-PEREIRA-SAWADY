@@ -1,0 +1,158 @@
+/* HOJA DE ESTILO CSS PARA PÁGINA 1 DE "TEXTIL UNQ"*/
+
+/* Encabezado */
+
+.contenedor-logo {
+  display: grid;            
+  height: 1px;
+  text-align: left;
+}
+
+element.style {
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.title {
+  display: block;
+  font-size: 40px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+header {
+    grid-column: span 3;
+    padding: 1px;
+    font-size: 2em;
+    color: #ff9966;
+    background-color: #99CCFF;
+    margin-block-end: 15px;
+    margin-block-start: 14px;
+    box-shadow: 0 0 0 8px #c0e0ff;
+}
+
+h1 {
+    text-align: center;
+    font-family: Times New Roman;
+    letter-spacing: 4px;
+    text-shadow: 3px -2px 2px #232323;
+    box-sizing: border-box;
+    }
+
+h2 {
+  text-align: center;
+  color: #0099FF;
+  font-size: 30px;
+  font-family: serif;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px black;
+  margin-block-start: auto;
+  }    
+
+/* Cuerpo del texto */
+
+body {          
+  background-color: #ffe2c6;
+  margin-top: 0px;
+  padding: 0px
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid img {
+  justify-items: center;
+  width: 100%;
+  border: 3px solid blue               
+}
+
+
+h3 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: unset;
+    letter-spacing: 5px;
+    background: #c0e0ff;
+    box-shadow: 7px 0px 0px 20px #c0e0ff;
+    margin-block-start: 60px;
+    margin-block-end: auto;
+    margin-left: 100px;
+    margin-right: 60px;
+    text-shadow: 1px 5px 6px #a2a2a2;
+}
+
+h4, h5, h6 {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-family: unset;
+  letter-spacing: 2px;
+  background: #c0e0ff;
+}        
+
+section {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+
+element.style {
+    background-color: #ffcc99;
+    font-size: 25px;
+    color: #000;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+textarea {
+  width: 75%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+
+/* Cuadro/tabla con más características sobre el producto*/
+
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+th,td {
+  padding: 8px;
+}
+
+thead {
+    background-color: #ff6a5f;
+    border-bottom: solid 3px #800f07;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fcb;
+}
+
+tr:hover{
+  background-color: salmon;
+  color: floralwhite;
+}
